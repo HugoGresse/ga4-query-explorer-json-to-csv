@@ -1,0 +1,24 @@
+{
+    "name": "ga4-query-explorer-json-to-csv",
+    "version": "1.0.0",
+    "description": "convert JSON from ga4 query explorer to csv",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HugoGresse/ga4-query-explorer-json-to-csv.git"
+    },
+    "author": "Hugo Gresse",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/HugoGresse/ga4-query-explorer-json-to-csv/issues"
+    },
+    "homepage": "https://github.com/HugoGresse/ga4-query-explorer-json-to-csv#readme",
+    "type": "module",
+    "dependencies": {
+        "@json2csv/plainjs": "^6.1.2",
+        "json2csv": "^6.0.0-alpha.2"
+    }
+}
